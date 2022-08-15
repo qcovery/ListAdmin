@@ -1,0 +1,12 @@
+{
+    "name": "qcovery/list-admin",
+    "description": "Change the owners of lists in VuFind",
+    "type": "qcovery-module",
+    "require": {
+        "php": ">=7.3",
+        "qcovery/vufind-composer-installer-plugin": "*"
+    },
+    "extra": {
+        "moduleName": "ListAdmin"
+    }
+}
