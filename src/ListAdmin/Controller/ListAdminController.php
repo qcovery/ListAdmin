@@ -1,6 +1,6 @@
 <?php
 /**
- * MyResearch Controller
+ * ListAdmin Controller
  *
  * PHP version 7
  *
@@ -41,6 +41,11 @@ use VuFind\Controller\AbstractBase;
  */
 class ListAdminController extends AbstractBase
 {
+    /**
+     * Migrate lists from one account to another.
+     *
+     * @return mixed
+     */
     public function migrateAction () {
         $account = $this->getAuthManager();
         $user = $account->isLoggedIn();
